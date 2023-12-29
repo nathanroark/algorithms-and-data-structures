@@ -1,21 +1,19 @@
 # About this Algorithm
 
-## Problem Statement
-Given an unsorted array of n elements, write a function to sort the array
+## Description
+Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
 
-## Approach
-- Make the right-most index value pivot
-- partition the array using pivot value
-- quicksort left partition recursively
-- quicksort right partition recursively
+In Pascal's triangle, each number is the sum of the two numbers directly above it.
 
-## Time Complexity
-- O(n^2) Worst case performance
-- O(n log n) Best-case performance
-- O(n log n) Average performance
-
-## Space Complexity
-- O(log n) Worst case
-
-## Founder's Name
-Tony Hoare in 1959
+## Example
+```text
+Input: 5
+Output:
+[
+     [1],
+    [1,1],
+   [1,2,1],
+  [1,3,3,1],
+ [1,4,6,4,1]
+]
+```
